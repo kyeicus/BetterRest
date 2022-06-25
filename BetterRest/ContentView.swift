@@ -22,7 +22,7 @@ struct ContentView: View {
         components.minute = 0
         return Calendar.current.date(from: components) ?? Date.now
     }
-
+    
     var body: some View {
         NavigationView{
             Form {
